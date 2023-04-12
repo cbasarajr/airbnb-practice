@@ -16,3 +16,7 @@
 -- | Burnside               | 10       |
 
 
+SELECT neighborhood, count(neighborhood)
+FROM listings INNER JOIN reviews ON id = listings_id
+GROUP BY neighborhood
+;
