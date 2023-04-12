@@ -5,3 +5,6 @@
 -- +----------+
 
 
+SELECT count(listing_id)
+FROM reviews
+;
